@@ -1,0 +1,1 @@
+In Objective-C, a tricky error can occur when dealing with `NSDecimalNumber` and comparing for equality.  Direct comparison using `isEqual:` might fail unexpectedly due to the internal representation of decimal numbers.  Even if two numbers are mathematically equivalent, minor differences in their scale or representation can lead to `isEqual:` returning NO.
